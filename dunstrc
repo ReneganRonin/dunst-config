@@ -54,10 +54,10 @@
     separator_height = 0
 
     # Padding between text and separator.
-    padding = 8
+    padding = 0
 
     # Horizontal padding.
-    horizontal_padding = 8
+    horizontal_padding = 2
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
@@ -306,8 +306,8 @@
     icon = /home/tricks/Pictures/NotifBells/NormalNotif.png
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
+    background = "#000000"
+    foreground = "#ff0000"
     frame_color = "#ff0000"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
